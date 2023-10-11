@@ -1,0 +1,116 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fredericka the Great', serif;
+    background: linear-gradient(to right,gold, cyan);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 200px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.title i {
+    font-size: 40px;
+}
+
+.title h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+.container{
+    border: 1px solid black;
+    width: 95%;
+    margin: auto;
+    
+}
+
+.userInput{
+    height: 35px;
+     width: 250px; 
+     padding: 10px; 
+     border: lightgrey 1px solid; 
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     transition: all 0.30s ease-in-out;
+}
+
+.right input:focus{
+    box-shadow: 0 0 5px rgb(238, 50, 128) ;
+    border:  rgb(238, 50, 128)  1px solid; 
+
+}
+
+.btn{
+    height: 35px; 
+    margin-left: -5px;
+    padding: 0 15px; 
+    background-color: lightgray; 
+    border: lightgrey 1px solid; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.ToDoItems{
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+  }
+  
+  .item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    padding: 1rem;
+    color: #454545;
+    margin-top:10px;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid lightgray;
+    text-transform: uppercase;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+  }
+  
+  .item:hover{
+    box-shadow: 0 0 20px #E22865;
+    border: 1px solid #E22865;
+  }
+  
+  .item i{
+    cursor: pointer;
+    margin: 0 5px;
+  }
+
